@@ -3,10 +3,8 @@ body{
 }
 p{
 	font-weight: bold;
+	color: darkred;
 }
 h1{
 	text-align: center;
-}
-p{
-	color: darkred;
 }
