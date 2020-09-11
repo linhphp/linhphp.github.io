@@ -21,6 +21,9 @@
 	$('.cmt').click(function(){
 		$('body,html').animate({scrollTop:$('#comment').offset().top},600);
 	});
+	$('.lh').click(function(){
+		$('body,html').animate({scrollTop:$('#lienhe').offset().top},600);
+	});
 	
 });
  
