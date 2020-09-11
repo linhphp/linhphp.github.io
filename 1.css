@@ -1,10 +1,1 @@
-body{
-	font-family: segoe ui;
-}
-p{
-	font-weight: bold;
-	color: darkred;
-}
-h1{
-	text-align: center;
-}
+*{margin: 0; padding: 0;} 
