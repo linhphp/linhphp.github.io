@@ -16,6 +16,7 @@ body,html{
 	height: 100%;
 	width: 100%;
 	position: relative;
+	z-index: 1;
 }
 .khoitt1:before{
 	content: "";
@@ -28,4 +29,35 @@ body,html{
 }
 a.navbar-brand{
 	padding: 0px;
+}
+.tt{
+	padding-top: 15%;
+	position: relative;
+	z-index: 2;
+}
+.tt img{
+	width: 145px;
+	height: 145px;
+	border-radius: 50%;
+}
+.tt h2{
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 22px;
+}
+.tt p{
+	color: black;
+	line-height: 30px;
+	font-size: 16px;
+	width: 50%;
+	margin:auto;
+	margin-bottom: 34px;
+}
+.tt a.nuthire{
+	width: 180px;
+	color: white;
+	background: black;
+	border-radius: 0px;
+	border-color: black;
 }
