@@ -18,7 +18,9 @@
 		// console.log('click duoc chua');
 		return false;
 	});
-	
+	$('.cmt').click(function(){
+		$('body,html').animate({scrollTop:$('#comment').offset().top},600);
+	});
 	
 });
  
