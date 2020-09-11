@@ -3,9 +3,6 @@ body,html{
 	width: 100%;
 	height: 100%;
 }
-.menutop{
-	height: 100px;
-}
 .navbar.navbar-light.bg-faded.navbar-fixed-top{
 	background-color: white;
 	line-height: 100px;
@@ -45,6 +42,7 @@ a.navbar-brand{
 	color: white;
 	font-weight: bold;
 	margin-bottom: 22px;
+	margin-top: 20px;
 }
 .tt p{
 	color: black;
@@ -99,4 +97,30 @@ span.motapt{
 }
 .cot2_3{
 	padding-top: 100px;
+}
+.nutxuong{
+	width: 40px;
+	height: 75px;
+	border: white solid 1px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 40px;
+	z-index: 2;
+	cursor: pointer;
+	transition: 0.4s;
+	bottom: 2%;
+}
+.nutxuong:hover{
+	bottom: 4%;
+}
+.nutxuong:before{
+	content: "";
+	position:absolute;
+	width: 3px;
+	height: 8px;
+	background-color: white;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 67%;
 }
