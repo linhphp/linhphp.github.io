@@ -16,9 +16,11 @@
 	});
 	$('.cmt').click(function(){
 		$('body,html').animate({scrollTop:$('#comment').offset().top},600);
+		return false;
 	});
 	$('.lh').click(function(){
 		$('body,html').animate({scrollTop:$('#lienhe').offset().top},600);
+		return false;
 	});
 	
 });
